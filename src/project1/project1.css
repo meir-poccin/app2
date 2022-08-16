@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.card{
+	width: 550px;
+	height: 868px;
+	background-color: #23252C;
+	
+
+}
+
+
+
+img{
+	display: block;
+   width: 317px;
+   height: 317px;
+   border-radius: 10px 10px 0px 0px;
+   margin: auto;
+}
+.image{
+	
+ /* padding-top: 44px;*/
+}
+.space{
+	height: 44px;
+	background-color: #23252C;
+}
+h1{
+	color: #FFFFFF;
+   font-family: -apple-system, BlinkMacSystemFont, 'Inter','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    text-align: center;
+    
+     height: 25.81px;
+      text-align: center;
+
+      font-size: 25px;
+line-height: 30px;
+}
+
+.a{
+	font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99
+}
+.b{
+	font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 15px;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #F5F5F5;
+}
+.email{
+	display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+position: absolute;
+width: 247px;
+height: 34px;
+left: 151px;
+top: 469px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+border: 1px solid #D1D5DB;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin-top: 16px;
+}
+.icon{
+	width: 12px;
+	height: 10px;
+	margin: 5px;
+}
+
+.text{
+	width: 36px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* gray/700 */
+
+color: #374151;
+
+
+/* Inside auto layout */
+
+order: 1;
+flex-grow: 0;
+
+}
+a{
+	text-decoration: none;
+}
+.about, .about1{
+	color: white;
+	margin-top: 65px;
+	/*margin-left: 150px;
+	margin-right: 125px;*/
+	width: 247px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1A1B21;
+
+}
+.blob1,.blobb1{
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 24px */
+
+
+color: #F5F5F5;
+margin-bottom: 5px;
+}
+.blob, .blobb{
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 15px;
+/* or 15px */
+
+margin-top: 0;
+padding-top: 0;
+color: #DCDCDC;
+
+}
+.about1{
+	margin-top: 0;
+}
+.image2{
+	width: 317px;
+	height: 64px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 116px;
+	margin-top: 0;
+	padding-right: 45px;
+    padding-left: 45px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.ic{
+	width: 25px;
+	height: 25px;
+}
+.card2{
+	background-color: #1A1B21;
+	width: 317px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+   height: 760px;
+}
